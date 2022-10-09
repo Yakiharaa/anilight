@@ -1,0 +1,306 @@
+/*==========  Desktop First  ========== */
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  body
+  {
+    background-size: 200%;
+  }
+  .header_top {
+    background-color: rgba(24, 45, 51, 0.525);
+    min-height: 39px;
+    width: 772px;
+}
+.header_logo {
+  padding-left: 200px;
+}
+.block {
+  background-color: rgb(242, 241, 241);
+  margin: 0 auto;
+  min-height: 60px;
+  width: 738px;
+  border-radius: 50px;
+}
+input {
+  width: 61%;
+  height: 30px;
+  padding-left: 10px;
+  border: 2px solid #000000;
+  border-radius: 100px;
+  outline: none;
+  background: #fffffe;
+  color: #9E9C9C;
+}
+button {
+  position: absolute;
+  top: 0px;
+  right: 51px;
+  width: 75px;
+  height: 35px;
+  border: none;
+  background: #007cf0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.hi {
+  padding-top: 0px;
+  padding-left: 0;
+}
+.intro h1 {
+  margin-left: 220px;
+}
+.intro p {
+
+  font-size: 17px;
+  margin-left: 200px;
+}
+.int hr {
+  background-color: rgb(0, 0, 0);
+  margin-top: 59px;
+  margin-left: 20px;
+  width: 495px;
+}
+.block_2
+{
+  width: 710px;
+  min-height: 1167px;
+}
+.block_2_1
+{
+  margin-left: 520px;
+}
+.block_2_3
+{
+  min-height: 806px;
+}
+.block_3
+{
+  width: 732px;
+}
+hr
+{
+  width: 155px;
+}
+
+.anime {
+  padding-top: 20px;
+  padding-left: 3px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.a1
+{
+  padding-top: 20px;
+  width: 30%;
+}
+.a2
+{
+  padding-top: 20px;
+  width: 30%;
+}
+.a3
+{
+  padding-top: 20px;
+  width: 30%;
+}
+.a4
+{
+  padding-top: 20px;
+  width: 30%;
+}
+.a5
+{
+  padding-top: 20px;
+  width: 30%;
+}
+.a6
+{
+  padding-top: 20px;
+  width: 30%;
+}
+.a7
+{
+  padding-top: 20px;
+  width: 30%;
+}
+.a8
+{
+  padding-top: 20px;
+  width: 30%;
+}
+.a9
+{
+  padding-top: 20px;
+  width: 30%;
+}
+
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  body {
+    background-size: 310%;
+}
+.menu a {
+
+  font-size: large;
+  padding: 20px 10px;
+
+}
+.header_top {
+  width: 485px;
+}
+.header_logo {
+  padding-left: 50px;
+}
+.poisk {
+  margin-left: -150px;
+}
+.block {
+  width: 451px;
+
+}
+.hi {
+  padding-top: 0;
+  padding-left: 0;
+  margin-left: -270px;
+}
+.intro h1 {
+  margin-left: 40px;
+  margin-top: -259px;
+  font-size: 20px;
+}
+.intro p { 
+  font-size: 15px; 
+  margin-left: 24px; 
+  margin-top: 19px; 
+} 
+.int hr {
+  background-color: rgb(0, 0, 0);
+  margin-top: 16px;
+  margin-left: 20px;
+  width: 274px;
+}
+.block_2 {
+  width: 451px;
+  min-height: 1167px;
+}
+.block_2_1 {
+  margin-left: 319px;
+  margin-top: -221px;
+  min-height: 460px;
+}
+.block_2_1 h2 {
+  font-size: initial;
+}
+hr {
+  width: 86px;
+  margin-top: -10px;
+}
+
+.nav a {
+  font-weight: 300;
+  line-height: 30px;
+  font-size: initial;
+}
+.block_2_2_inner h3 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: -243px;
+  margin-left: -100px;
+  font-size: initial;
+}
+.block_2_3 {
+  min-height: 544px;
+}
+.block_2 {
+  width: 451px;
+  min-height: 830px;
+}
+.block_3 {
+  width: 452px;
+}
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  body {
+    background-size: 467%;
+}
+.header_top {
+  width: 417px;
+}
+.menu a {
+  font-size: initial;
+  padding: 20px 9px;
+}
+.header_logo {
+  padding-left: 0px;
+}
+.block {
+  width: 381px;
+}
+.poisk {
+  margin-left: -201px;
+}
+.block_2 {
+  width: 371px;
+  min-height: 827px;
+}
+.block_2_1 {
+  margin-left: 263px;
+  margin-top: -221px;
+  min-height: 441px;
+}
+.intro h1 {
+  margin-left: 27px;
+  margin-top: -272px;
+  font-size: 20px;
+}
+.intro p {
+  font-size: 13px;
+  margin-left: 13px;
+  margin-top: 15px;
+}
+.int hr {
+  background-color: rgb(0, 0, 0);
+  margin-top: 20px;
+  margin-left: 8px;
+  width: 239px;
+}
+.block_2_1 h2 {
+  font-size: 12px;
+}
+hr {
+  width: 70px;
+  margin-top: -16px;
+}
+.nav a {
+  font-weight: 300;
+  line-height: 30px;
+  font-size: 12px;
+}
+.block_2_2_inner h3 {
+
+  margin-top: -222px;
+  margin-left: -79px;
+}
+.block_2_3 {
+  min-height: 481px;
+}
+.block_2 {
+  width: 371px;
+  min-height: 763px;
+}
+.block_3 {
+  width: 372px;
+}
+}
